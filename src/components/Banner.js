@@ -12,7 +12,7 @@ export const Banner = () => {
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
     const toRotate = ["Software Developer", "Full Stack Developer", "Backend Developer", "Teaching Assistant", "Technical Content Writer", "Coding Mentor"];
-    const period = 2000;
+    const period = 1000;
     const [activeLink, setActiveLink] = useState("home");
 
     useEffect(() => {
@@ -31,7 +31,8 @@ export const Banner = () => {
         setText(updatedText);
 
         if(isDeleting){
-            setDelta(prevDelta => prevDelta/2);
+            // setDelta(prevDelta => prevDelta/4);
+            setDelta(50);
         }
 
         if(!isDeleting && updatedText === fullText){
