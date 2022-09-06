@@ -154,8 +154,8 @@ export const Skills = () => {
                                     <h5>Databases <br/> (MySQL <br/> & <br/> MongoDB)</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="MeterIcon" />
-                                    <h5>OS <br/> (Linux, Windows, Mac)</h5>
+                                    <img src={meter2} alt="MeterIcon" />
+                                    <h5>Docker <br/> (Containers, Compose, Swarm)</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter2} alt="MeterIcon" />
@@ -166,8 +166,12 @@ export const Skills = () => {
                                     <h5>CDN <br/> (Akamai)</h5>
                                 </div>
                                 <div className="item">
+                                    <img src={meter3} alt="MeterIcon" />
+                                    <h5>Tools <br/> (Jenkins, Postman, Git, Github, Gitlab, BitBucket, Jira)</h5>
+                                </div>
+                                <div className="item">
                                     <img src={meter1} alt="MeterIcon" />
-                                    <h5>Tools <br/> (Postman, Git, Github, Gitlab, BitBucket, Jira)</h5>
+                                    <h5>OS <br/> (Linux, Windows, Mac)</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter1} alt="MeterIcon" />

@@ -38,7 +38,7 @@ export const Experiences = () => {
             duration: "",
             imgUrl: scalerIconCardImage,
             link: "https://www.interviewbit.com/practice/",
-            urls: ["https://www.scaler.com/topics/marker-interface-in-java/", "https://www.scaler.com/topics/java/error-vs-exception-in-java/", "https://www.scaler.com/topics/html-is-case-sensitive-language/", "https://www.scaler.com/topics/java/create-file-in-java/"],
+            urls: ["https://www.scaler.com/topics/state-design-pattern/", "https://www.scaler.com/topics/abstract-factory-design-pattern/", "https://www.scaler.com/topics/marker-interface-in-java/", "https://www.scaler.com/topics/java/error-vs-exception-in-java/", "https://www.scaler.com/topics/html-is-case-sensitive-language/", "https://www.scaler.com/topics/java/create-file-in-java/"],
             workDescription: ["Publish Technical Content for Java and System Design."]
         },
         {
